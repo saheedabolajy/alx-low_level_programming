@@ -1,7 +1,8 @@
 #include <stdio.h>
-/**
- * betty style doc for function main of print alphabet *
- * main - Entry
+
+ /* betty style doc for function main of print alphabet */
+
+ /** main - Entry
  * Return: Always 0 (success)
  */
 int main(void)
