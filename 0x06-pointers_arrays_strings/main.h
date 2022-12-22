@@ -1,5 +1,5 @@
-#ifndef MAIN.H
-#define MAIN.H
+#ifndef MAIN_H
+#define MAIN_H
 
 
 char *_strcat(char *dest, char *src);
@@ -21,4 +21,4 @@ char *leet(char *a);
 int _putchar(char c);
 
 
-#endif
+#endif /* MAIN_H */
