@@ -1,19 +1,20 @@
 #include <stdio.h>
 
- /* prints alphabet if the result is in lower case */
+/**
+ * main - prints alphabet in lower case
+ * Return: Always 0
+ */
 
- /* main - Entry point */
- /* Return: Always 0 (success) */
 int main(void)
 {
-	char c;
+	char lc;
 
-	c = 'a'; 	
-	while
-	       	(c <= 'z') {
-			putchar(c);
-			c++;
-		}
+
+	for (lc = 'a'; lc <= 'z'; lc++);
+	{
+		putchar(lc);
+	}
+
 	putchar('\n');
 	return (0);
 }
