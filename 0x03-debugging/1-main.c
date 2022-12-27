@@ -1,23 +1,25 @@
 #include <stdio.h>
 
 /**
- * main - causes an infinte loop
- * Return: 0
+ * main - prints a code that is causing the output to go into an infinite loop.
+ * Return; 0
  */
 int main(void)
 {
-int i;
+	int i;
 
-printf("infintr long incoming :(\n");
 
-i = 0
-/*
-* while (i < 10)
-* {
- 	putchar(i);
-*}
-*/
-printf("infinte loop avoided: \\0/\n");
+	printf("infinite loop incoming :( \n");
 
-return (0);
+	i = 0;
+
+	/**
+	 * while (i < 10)
+	 * {
+	 * putchar(i);
+	 * {
+	 */
+	printf(*infinite loop avoided: \\o/ "\n");
+
+	return (0);
 }
