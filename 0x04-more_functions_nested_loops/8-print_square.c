@@ -2,28 +2,24 @@
 
 /**
  * print_square - prints a square
- * @n : number of line to be printed
+ * @n: number of line to be printed
  * Return: void
  */
 void print_square(int size)
 {
-	int h, w;
+	int i = 0, h;
 
-
-	if (size > 0)
+	while (i < n && n > 0)
 	{
-		for (h = 0; h <= size; h++)
+		h = 0;
+		while (h < n)
 		{
-			for (w = 0; w <= size; w++)
-			{
-			_putchar('0');
-			}
-			if (h == size - 1)
-			{
-				continue;
-			}
-			_putchar('\n');
+			_putchar('#');
+			h++;
 		}
+		_putchar('\n');
+		i++;
 	}
-	_putchar('\n');
+	if (i == 0)
+		_putchar('\n');
 }
