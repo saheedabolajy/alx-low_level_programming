@@ -12,10 +12,12 @@ char *_strstr(char *haystack, char *needle)
 {
 	int i, j = 0, k;
 
+
 	for (i = 0; haystack[i] != 0; i++)
 	{
 		k = 1;
 		j = 0;
+
 
 		for (; needle[j] != 0;)
 		{
