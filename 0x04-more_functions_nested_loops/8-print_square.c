@@ -5,25 +5,25 @@
  * @n : number of line to be printed
  * Return: void
  */
-void print_square(int n)
+void print_square(int size)
 {
-	int i = 0, ii;
+	int h, w;
 
-	while (i < n && n > 0)
+
+	if (size > 0)
 	{
-		ii = 0;
-
-		while (ii < n)
+		for (h = 0; h <= size; h++)
 		{
-			_putchar('#');
-			i++;
+			for (w = 0; w <= size; w++)
+			{
+			_putchar('0');
+			}
+			if (h == size - 1)
+			{
+				continue;
+			}
+			_putchar('\n');
 		}
-
-
-		_putchar('\n');
-		i++;
-
 	}
-	if (i == 0)
-		_putchar('\n');
+	_putchar('\n');
 }
