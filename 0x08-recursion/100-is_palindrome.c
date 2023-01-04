@@ -29,7 +29,7 @@ int pali(char *s, int i)
 		return (1);
 	}
 
-	if (*s == *(s + 1))
+	if (*s == *(s + i))
 	{
 		return (pali(s + 1, i - 2));
 	}
