@@ -29,5 +29,5 @@ int sqrt_function(int n, int i)
 		return (-1);
 	if (i * i == n)
 		return (i);
-	return (sqrt_function(n, 1 + 1));
+	return (sqrt_function(n, i + 1));
 }
